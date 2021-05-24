@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+$inter: 'Inter', sans-serif;
+*{
+    font-family: $inter;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+h2{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+p{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*
+h1, h2, h3 {
+    font-family: $quicksand;
+    font-weight: 600;
+    font-size: 3rem;
+}
+*/

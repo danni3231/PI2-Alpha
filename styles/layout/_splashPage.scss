@@ -8,12 +8,19 @@
     }
 
     &__btns{
-        background-color: $blue;
         height: 50%;
+        background-color: $blue;
+        padding: 50px 20px;
 
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+
+        border-radius: 15px 15px 0px 0px;
+        box-sizing: border-box;
+
+        color: $white;
+        text-align: center;
     }
 }

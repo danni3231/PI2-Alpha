@@ -11,7 +11,17 @@ body{
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
+
+    border: 1px solid slategrey;
+}
+
+.logo{
+    &--splash{
+        width: 65px;
+    }
 }
 
 @import './utils/colors';
+@import './utils/typography';
+@import './components/btns';
 @import './layout/splashPage';

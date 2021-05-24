@@ -1,0 +1,19 @@
+.splashPage{
+    &__header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height: 50%;
+    }
+
+    &__btns{
+        background-color: $blue;
+        height: 50%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+}

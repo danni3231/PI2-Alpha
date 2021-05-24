@@ -1,0 +1,17 @@
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+body{
+    width: 360px;
+    height: 760px;
+
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+@import './utils/colors';
+@import './layout/splashPage';

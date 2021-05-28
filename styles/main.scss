@@ -19,9 +19,15 @@ body{
     &--splash{
         width: 65px;
     }
+    
+    &--header{
+        width: 37px;
+    }
 }
 
 @import './utils/colors';
 @import './utils/typography';
 @import './components/btns';
+@import './components/inputs';
 @import './layout/splashPage';
+@import './layout/login';

@@ -5,11 +5,14 @@
     border: none;
     color: $white;
     border-radius: 20px;
-    background-color: $orange;
 
-    &:hover{
-        background-color: $orangeShadow;
-        cursor: pointer;
+    &--primary{
+        background-color: $orange;
+
+        &:hover{
+            background-color: $orangeShadow;
+            cursor: pointer;
+        }
     }
 
     &--secondary{

@@ -1,0 +1,33 @@
+.login{
+    &__header{
+        background-color: $white;
+        height: 70px;
+        padding-right: 110px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__main{
+        text-align: center;
+
+        height: 690px;
+        background-color: $purple;
+        color: $white;
+        border-radius: 15px 15px 0px 0px;
+        padding: 50px 20px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        form{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            height: 250px;
+        }
+    }
+}

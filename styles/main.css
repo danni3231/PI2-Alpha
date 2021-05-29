@@ -9,7 +9,6 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 100vh;
 }
 
 body {
@@ -194,5 +193,152 @@ p {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 250px;
+}
+
+.homeUser {
+  background-color: #5F259F;
+}
+
+.homeUser__header {
+  padding: 20px;
+  color: white;
+}
+
+.homeUser__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeUser__info__greet__good {
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+
+.homeUser__info__logout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.homeUser__balance {
+  text-align: center;
+}
+
+.homeUser__movements {
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+}
+
+.homeUser__movements__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homeUser__movements__header__all {
+  margin-left: auto;
+  font-weight: bold;
+}
+
+.homeUser__movements__header__movs {
+  font-weight: bold;
+}
+
+.homeUser__movementsList__date {
+  margin: 0px;
+  font-weight: bolder;
+}
+
+.movement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #e2e2e2;
+  padding: 15px 0px;
+}
+
+.movement__from {
+  margin-left: 20px;
+}
+
+.movement__from__title {
+  margin: 0px;
+  font-size: small;
+  font-weight: bold;
+}
+
+.movement__from__name {
+  margin: 0px;
+  font-size: small;
+  color: #828282;
+}
+
+.movement__data {
+  margin-left: auto;
+}
+
+.movement__data__amount__deposit {
+  margin: 0px;
+  font-weight: 900;
+  color: #27AE60;
+}
+
+.movement__data__amount__discount {
+  margin: 0px;
+  font-weight: 900;
+  color: #EB5757;
+}
+
+.movement__data__time {
+  margin: 0px 0px 0px 30px;
+  font-size: small;
+  color: #828282;
+}
+
+.nav-bar {
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  -webkit-box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.2);
+          box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.2);
+  width: 360px;
+}
+
+.nav-bar__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-bar__item {
+  padding: 0px 20px;
+}
+
+.nav-bar__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+}
+
+.nav-bar__label {
+  margin: 0px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #828282;
+}
+
+.userName {
+  margin-top: 5px;
 }
 /*# sourceMappingURL=main.css.map */

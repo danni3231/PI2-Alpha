@@ -123,11 +123,11 @@ p {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  height: 40%;
+  height: 45%;
 }
 
 .splashPage__main {
-  height: 60%;
+  height: 55%;
   background-color: #0097A1;
   padding: 50px 20px;
   display: -webkit-box;
@@ -167,7 +167,7 @@ p {
   background-color: #5F259F;
   color: white;
   border-radius: 15px 15px 0px 0px;
-  padding: 50px 20px;
+  padding: 100px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,5 +194,9 @@ p {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   height: 250px;
+}
+
+.login__main--ambassador {
+  background-color: #FF6900;
 }
 /*# sourceMappingURL=main.css.map */

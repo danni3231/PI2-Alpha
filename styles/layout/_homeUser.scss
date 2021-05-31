@@ -1,0 +1,137 @@
+.homeUser{
+    background-color: $purple;
+
+    &__header{
+        padding: 20px;
+        color: white;
+    }
+    &__info{
+        display:flex;
+        align-items: center;
+
+        &__greet{
+
+            &__good{
+                margin-bottom: 0px;
+                font-size: 1.5em;
+            }
+
+        }
+        &__logout{
+            display: flex;
+            margin-left: auto;
+
+        }
+    }
+    &__balance{
+        text-align: center;
+    }
+
+    &__movements{
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+        &__header{
+            display: flex;
+            &__all{
+                margin-left: auto;
+                font-weight: bold;
+            }
+            &__movs{
+                font-weight: bold;
+
+            }
+        }
+    }
+
+    &__movementsList{
+        &__date{
+            margin: 0px;
+            font-weight: bolder;
+        }
+    }
+
+}
+
+.movement{
+    display: flex;
+    border-bottom: 1px solid rgb(226, 226, 226);
+    padding: 15px 0px;
+    &__from{
+        margin-left: 20px;
+        &__title{
+            margin: 0px;
+            font-size: small;
+            font-weight: bold;
+        }
+        &__name{
+            margin: 0px;
+            font-size: small;
+            color: #828282;
+   
+        }
+    }
+    &__data{
+        margin-left:auto ;
+        &__amount{
+
+
+            &__deposit{
+                margin: 0px;
+                font-weight: 900;
+                color: #27AE60;
+            }
+            &__discount{
+                margin: 0px;
+                font-weight: 900;
+                color:#EB5757;
+            }
+        }
+        &__time{
+            margin: 0px 0px 0px 30px;
+            font-size: small;
+            color: #828282;
+        }
+    }
+
+
+}
+
+.nav-bar{
+    background-color: white;
+    position: fixed;
+    bottom: 0px;
+    box-shadow: 0px 0px 15px rgba(71, 71, 71, .2);
+    width: 360px;
+
+
+    &__section{
+        display: flex;
+        padding: 10px 20px;
+        justify-content: center;
+
+    }
+
+    &__item{
+   // background-color: yellow;
+    padding: 0px 20px;
+
+    }
+
+    &__icon{
+        display: flex;
+        margin: 0px auto;
+       
+    }
+    &__label{
+        margin: 0px;
+        font-size: 0.8em;
+        font-weight: lighter;
+        color: #828282;
+    }
+}
+
+.userName{
+    margin-top: 5px;
+}
+

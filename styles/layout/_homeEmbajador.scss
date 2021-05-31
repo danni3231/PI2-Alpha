@@ -1,0 +1,78 @@
+.homeEmbajador{
+    &__header{
+        padding: 20px;
+        background-color: $orange;
+        color: white;
+        border-radius: 0px 0px 20px 20px;
+    }
+    &__info{
+        display:flex;
+        align-items: center;
+
+        &__greet{
+
+            &__good{
+                margin-bottom: 0px;
+                font-size: 1.5em;
+            }
+            &__today{
+                margin: 0px;
+                font-weight: lighter;
+            }
+
+        }
+        &__notification{
+            display: flex;
+            margin-left: auto;
+
+        }
+    }
+    &__balance{
+        margin-top: 20px;
+        text-align: center;
+
+        &__title{
+            font-size:small;
+            font-weight: bold;
+            margin: 0px auto;
+            margin-bottom: 10px;
+            width: 150px;
+        }
+
+        &__assists{
+
+            font-weight:lighter;
+        }
+    }
+
+    &__progress{
+        background-color: white;
+        border-radius: 20px 20px 0 0;
+        padding: 20px;
+        &__header{
+            display: flex;
+            &__movs{
+                font-weight: bold;
+
+            }
+        }
+    }
+
+    &__progressList{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0;
+
+
+        &__item{
+            width: 55px;
+            margin: 0px 20px;
+
+        }
+    }
+
+}
+
+
+
+

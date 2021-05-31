@@ -2,7 +2,6 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
 }
 body{
     width: 360px;
@@ -31,3 +30,6 @@ body{
 @import './components/inputs';
 @import './layout/splashPage';
 @import './layout/login';
+@import './layout/homeUser';
+@import './components/navBarEmbajador';
+@import './layout/homeEmbajador';

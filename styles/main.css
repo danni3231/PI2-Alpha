@@ -341,4 +341,122 @@ p {
 .userName {
   margin-top: 5px;
 }
+
+.navBarEmbajador {
+  background-color: white;
+  position: fixed;
+  bottom: 0px;
+  -webkit-box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.2);
+          box-shadow: 0px 0px 15px rgba(71, 71, 71, 0.2);
+  width: 360px;
+}
+
+.navBarEmbajador__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navBarEmbajador__item {
+  padding: 0px 10px;
+}
+
+.navBarEmbajador__icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px auto;
+}
+
+.navBarEmbajador__label {
+  margin: 0px;
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #828282;
+}
+
+.homeEmbajador__header {
+  padding: 20px;
+  background-color: #FF6900;
+  color: white;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.homeEmbajador__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.homeEmbajador__info__greet__good {
+  margin-bottom: 0px;
+  font-size: 1.5em;
+}
+
+.homeEmbajador__info__greet__today {
+  margin: 0px;
+  font-weight: lighter;
+}
+
+.homeEmbajador__info__notification {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.homeEmbajador__balance {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.homeEmbajador__balance__title {
+  font-size: small;
+  font-weight: bold;
+  margin: 0px auto;
+  margin-bottom: 10px;
+  width: 150px;
+}
+
+.homeEmbajador__balance__assists {
+  font-weight: lighter;
+}
+
+.homeEmbajador__progress {
+  background-color: white;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+}
+
+.homeEmbajador__progress__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.homeEmbajador__progress__header__movs {
+  font-weight: bold;
+}
+
+.homeEmbajador__progressList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.homeEmbajador__progressList__item {
+  width: 55px;
+  margin: 0px 20px;
+}
 /*# sourceMappingURL=main.css.map */

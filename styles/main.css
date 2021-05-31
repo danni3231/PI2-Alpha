@@ -410,7 +410,7 @@ p {
   width: 96px;
   height: 106px;
   left: 132px;
-  top: 64px;
+  top: 50px;
 }
 
 .profileHeader {
@@ -449,7 +449,7 @@ p {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: white;
-  padding: 20px;
+  padding: 70px 20px 20px 20px;
   border-radius: 20px 20px 0px 0px;
   height: 664px;
 }

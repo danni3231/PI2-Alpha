@@ -85,6 +85,8 @@ p {
 
 .btn--primary {
   background-color: #FF6900;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
 }
 
 .btn--primary:hover {
@@ -198,5 +200,203 @@ p {
 
 .login__main--ambassador {
   background-color: #FF6900;
+}
+
+.headerCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.headerCont__h3Cont {
+  width: 90%;
+  padding-left: 20px;
+}
+
+.headerCont__h3 {
+  margin-left: 40px;
+}
+
+.headerCont__icon {
+  width: 10%;
+  padding-right: 20px;
+}
+
+.mainCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 20px 0px 20px;
+}
+
+.mainCont__h5 {
+  color: #4F4F4F;
+  padding: 0px;
+  margin: 0px 10px 0px 0px;
+}
+
+.mainCont__p {
+  color: #828282;
+  font-size: 12px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.mainCont__image1 {
+  width: 35px;
+  height: 35px;
+  padding: 0px;
+}
+
+.mainCont__image2 {
+  width: 50px;
+  height: 60px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.mainCont__image3 {
+  width: 54px;
+  height: 24px;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.section__title {
+  color: #4F4F4F;
+}
+
+.section__title--orange {
+  color: #FF6900;
+  margin: 0px;
+}
+
+.listCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.listCont--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.listItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.listItem--col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 33%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.listItem__image {
+  width: 15%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0px;
+}
+
+.listItem__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 65%;
+  margin: 0px;
+}
+
+.listItem__titleCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.listItem__date {
+  width: 20%;
+  margin: 0px;
 }
 /*# sourceMappingURL=main.css.map */

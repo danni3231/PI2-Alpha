@@ -1,0 +1,127 @@
+.profileBody{
+    //background-color: $orange;
+    background-color: $orange;
+    position: relative;
+}
+
+.imageAbsolute{
+    position: absolute;
+    width: 96px;
+    height: 106px;
+    left: 132px;
+    top: 64px;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 96px;
+    align-items: center;
+    padding: 20px;
+}
+
+.profileIcons{
+    width: 24px;
+    height: 24px;
+
+    &--variant{
+        margin-right: 20px;
+    }
+}
+
+.profileMain{
+    display: flex;
+    flex-direction: column;
+    background-color:$white;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;
+    height: 664px;
+
+}
+
+.profileBodyCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__h3{
+        color: $titleGrey;
+        margin: 0px 0px 20px 0px;
+
+        &--variant{
+            margin: 0px 0px 10px 0px;
+        }
+    }
+
+}
+
+.profileDivRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 30px;
+
+    &--column{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 33%;
+        margin-bottom: 0px;
+    }
+
+    &--variant{
+        height: 45px;
+        border-bottom: solid 0.5px #F0F0F0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+}
+
+.profileP{
+    font-family: 'Inter';
+    color: $textBlack;
+    font-size: 14px;
+    margin: 0px;
+
+    &--variant{
+        color: $textGrey;
+    }
+}
+
+.divIcon{
+    width: 15%;
+
+    &--variant{
+        display: flex;
+        flex-direction: row;
+        width: 10%;
+        justify-content: flex-end;
+    }
+}
+
+.divText{
+    width: 75%;
+}
+
+.logoutBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 224px;
+    height: 48px;
+    color: $white;
+    background-color: #EB5757;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    
+}
+
+

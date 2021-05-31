@@ -399,4 +399,179 @@ p {
   width: 20%;
   margin: 0px;
 }
+
+.profileBody {
+  background-color: #FF6900;
+  position: relative;
+}
+
+.imageAbsolute {
+  position: absolute;
+  width: 96px;
+  height: 106px;
+  left: 132px;
+  top: 64px;
+}
+
+.profileHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 96px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+}
+
+.profileIcons {
+  width: 24px;
+  height: 24px;
+}
+
+.profileIcons--variant {
+  margin-right: 20px;
+}
+
+.profileMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: white;
+  padding: 20px;
+  border-radius: 20px 20px 0px 0px;
+  height: 664px;
+}
+
+.profileBodyCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.profileBodyCont__h3 {
+  color: #4F4F4F;
+  margin: 0px 0px 20px 0px;
+}
+
+.profileBodyCont__h3--variant {
+  margin: 0px 0px 10px 0px;
+}
+
+.profileDivRow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.profileDivRow--column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 33%;
+  margin-bottom: 0px;
+}
+
+.profileDivRow--variant {
+  height: 45px;
+  border-bottom: solid 0.5px #F0F0F0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px 10px;
+}
+
+.profileP {
+  font-family: 'Inter';
+  color: #2D2D2D;
+  font-size: 14px;
+  margin: 0px;
+}
+
+.profileP--variant {
+  color: #828282;
+}
+
+.divIcon {
+  width: 15%;
+}
+
+.divIcon--variant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 10%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.divText {
+  width: 75%;
+}
+
+.logoutBtn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  width: 224px;
+  height: 48px;
+  color: white;
+  background-color: #EB5757;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+}
 /*# sourceMappingURL=main.css.map */

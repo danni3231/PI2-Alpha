@@ -23,6 +23,10 @@ body{
     padding-bottom: 60px;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .logo{
     &--splash{
         width: 65px;

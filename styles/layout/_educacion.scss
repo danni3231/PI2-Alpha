@@ -40,6 +40,9 @@
         font-size: 18px;
 
     }
+    &__lastarticles{
+        display: flex;
+    }
     &__article{
         box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
         transition: 0.3s;
@@ -106,7 +109,69 @@
           margin-left: 15px;
       }
 }
-body{
-    color: $blue;
+.articulo{
+    &__header{
+        margin-top: 34px;
+        margin-left: 24px;
+    }
+    &__back{
+        padding-bottom: 20px;
+    }
+    &__subtitle{
+        color: #9B9B9B;
+        margin: 0;
+        width: auto;
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+    &__title{
+        font-size: 18px;
+        margin: 0;
+        padding-bottom: 5px;
+    }
+    &__name{
+        font-size: 12px;
+        color: #9B9B9B;
+        font-weight: 500;
+        margin: 0;
+    }
+    &__reactions{
+        padding-top: 10px;
+    }
+    &__content{
+        margin-top: 10px;
+    }
+    &__text{
+        font-size: 12px;
+        color: #9B9B9B;
+        font-weight: 500;
+        width: 88%;
+        margin-left: 24px;
+        padding-bottom: 10px;
+    }
+    &__card{
+        box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+        transition: 0.3s;
+        padding: 24px 0px 15px 11px;
+        width: 90%;
+        margin-left: 12px;
+        border-radius: 8px;
+        border-top:10px solid $orange;
+        outline-offset: -10px;
+    }
+    &__listtitle{
+        color: #2D2D2D;
+        margin: 0;
+        font-size: 14px;
+    }
+    &__list{
+        color: #9B9B9B;
+        margin: 0;
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    &__item{
+        padding: 5px;
+    }
 }
 

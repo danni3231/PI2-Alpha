@@ -159,6 +159,12 @@ h1, h2, h3 {
   font-size: 18px;
 }
 
+.educacion__lastarticles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .educacion__article {
   -webkit-box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
           box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
@@ -238,7 +244,80 @@ h1, h2, h3 {
   margin-left: 15px;
 }
 
-body {
-  color: #0097A1;
+.articulo__header {
+  margin-top: 34px;
+  margin-left: 24px;
+}
+
+.articulo__back {
+  padding-bottom: 20px;
+}
+
+.articulo__subtitle {
+  color: #9B9B9B;
+  margin: 0;
+  width: auto;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+
+.articulo__title {
+  font-size: 18px;
+  margin: 0;
+  padding-bottom: 5px;
+}
+
+.articulo__name {
+  font-size: 12px;
+  color: #9B9B9B;
+  font-weight: 500;
+  margin: 0;
+}
+
+.articulo__reactions {
+  padding-top: 10px;
+}
+
+.articulo__content {
+  margin-top: 10px;
+}
+
+.articulo__text {
+  font-size: 12px;
+  color: #9B9B9B;
+  font-weight: 500;
+  width: 88%;
+  margin-left: 24px;
+  padding-bottom: 10px;
+}
+
+.articulo__card {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+          box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 24px 0px 15px 11px;
+  width: 90%;
+  margin-left: 12px;
+  border-radius: 8px;
+  border-top: 10px solid #FF6900;
+  outline-offset: -10px;
+}
+
+.articulo__listtitle {
+  color: #2D2D2D;
+  margin: 0;
+  font-size: 14px;
+}
+
+.articulo__list {
+  color: #9B9B9B;
+  margin: 0;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+.articulo__item {
+  padding: 5px;
 }
 /*# sourceMappingURL=main.css.map */

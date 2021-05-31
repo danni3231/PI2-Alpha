@@ -112,4 +112,108 @@ h1, h2, h3 {
   color: white;
   text-align: center;
 }
+
+.educacion__body {
+  background-color: #0097A1;
+}
+
+.educacion__header {
+  overflow: hidden;
+  padding: 10px 35px 10px 24px;
+  margin-top: 56px;
+}
+
+.educacion__title {
+  color: white;
+  margin: 0;
+  width: auto;
+  display: inline;
+}
+
+.educacion__notification {
+  cursor: pointer;
+  float: right;
+}
+
+.educacion__searchbar {
+  width: 90%;
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+  margin-top: 18px;
+}
+
+.educacion__input[type=text] {
+  color: aqua;
+}
+
+.educacion__articles {
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  position: relative;
+}
+
+.educacion__sectiontitle {
+  color: #2D2D2D;
+  padding: 27px 0px 0px 24px;
+  font-size: 18px;
+}
+
+.educacion__article {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+          box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 24px;
+  width: 63%;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+
+.educacion__article2 {
+  -webkit-box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+          box-shadow: 0 2px 6px 0 rgba(43, 43, 43, 0.2);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  padding: 24px;
+  width: 63%;
+  margin-left: 24px;
+  border-radius: 8px;
+}
+
+.educacion__educacion__article__image {
+  padding: 15px;
+}
+
+.educacion__articlestitle {
+  color: #2D2D2D;
+  padding: 0px 0px 0px 0px;
+  font-size: 16px;
+  display: inline;
+}
+
+.educacion__articlesubtitle {
+  color: #9B9B9B;
+  padding: 0px 0px 0px 0px;
+  font-size: 14px;
+}
+
+.educacion__articlesubtitle2 {
+  color: #2D2D2D;
+  padding: 21px 0px 0px 24px;
+  font-size: 14px;
+}
+
+.educacion__goto {
+  display: inline;
+  float: right;
+}
+
+.educacion__reactions {
+  margin-top: 20px;
+}
+
+body {
+  color: #0097A1;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,17 +1,26 @@
 html{
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 body{
     width: 360px;
     height: 760px;
+    position: relative;
 
     box-sizing: border-box;
     margin: 0%;
     padding: 0%;
 
     border: 1px solid slategrey;
+}
+
+.scroll{
+    height: 760px;
+    overflow: scroll;
+    padding-bottom: 60px;
 }
 
 .logo{

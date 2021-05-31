@@ -11,3 +11,13 @@ if(typeUser === 'ambassador'){
     loginMain.classList.add('login__main--ambassador');
     loginMain.querySelector('button').classList.add('btn--secondary');
 }
+
+loginForm.addEventListener('submit', (e)=>{
+    e.preventDefault();
+    if(typeUser === 'ambassador'){
+        location.href='homeEmbajador.html';
+    }else{
+        location.href='homeUser.html';
+    }
+
+});

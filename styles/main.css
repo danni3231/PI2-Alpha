@@ -51,6 +51,11 @@ p {
   font-size: 16px;
 }
 
+h3 {
+  font-weight: 500;
+  font-size: 14px;
+}
+
 .material-icons {
   font-family: 'Material Icons';
   font-weight: normal;
@@ -198,5 +203,163 @@ p {
 
 .login__main--ambassador {
   background-color: #FF6900;
+}
+
+.modal--qualification {
+  width: 311px;
+  height: 189px;
+  background-color: white;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modal--qualification--expand {
+  height: 390px;
+}
+
+.modal--qualification header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  position: relative;
+  width: 100%;
+  height: 80px;
+}
+
+.modal--qualification header h3 {
+  width: 201px;
+  margin-bottom: 0px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.modal--qualification main {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.modal--qualification h3 {
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+}
+
+.modal--qualification__close {
+  position: absolute;
+  right: 20px;
+  top: 17px;
+}
+
+.modal--qualification__close:hover {
+  cursor: pointer;
+}
+
+.modal--qualification .rateStar {
+  width: 260px;
+  margin: 0 auto;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.modal--qualification .rateStar__rate {
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  direction: rtl;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  text-align: center;
+}
+
+.modal--qualification .rateStar__rate label {
+  font-size: 33px;
+  color: grey;
+}
+
+.modal--qualification .rateStar__rate label:hover,
+.modal--qualification .rateStar__rate label:hover ~ label {
+  color: orange;
+}
+
+.modal--qualification .rateStar__rate input[type="radio"] {
+  display: none;
+}
+
+.modal--qualification .rateStar__rate input[type="radio"]:checked, .modal--qualification .rateStar__rate input[type="radio"]:checked ~ label {
+  color: orange;
+}
+
+.modal--qualification .rateStar__tags {
+  width: 230px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.modal--qualification .rateStar__tags p {
+  font-size: 12px;
+}
+
+.modal--qualification .rateStar__extra {
+  display: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal--qualification .rateStar__comment {
+  height: 70px;
+  background: #F6F6F6;
+  border: 1px solid #E8E8E8;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+.modal--qualification .rateStar .btn {
+  width: 110px;
 }
 /*# sourceMappingURL=main.css.map */

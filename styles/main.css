@@ -200,9 +200,24 @@ p {
   background-color: #FF6900;
 }
 
+.userChat {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
 .userChat__header {
   background-color: white;
   height: 80px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -261,6 +276,10 @@ p {
   color: white;
 }
 
+.userChat__ambassadorName {
+  font-size: 20px;
+}
+
 .userChat__status {
   border-radius: 50%;
   height: 15px;
@@ -274,5 +293,64 @@ p {
 
 .userChat__close {
   height: 18px;
+}
+
+.userChat__chat {
+  height: 100%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.userChat__startLog {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #BDBDBD;
+}
+
+.userChat__date {
+  margin: 1em 0 .5em 0;
+}
+
+.userChat__title {
+  margin: 0;
+}
+
+.userChat__chat {
+  color: white;
+  width: 50%;
+  margin: 1em auto 0em 2em;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: darkgrey;
+  padding: 0em 1em;
+}
+
+.userChat__chat--amb {
+  border-radius: 10px 10px 10px 0px;
+  background-color: #FF6900;
+}
+
+.userChat__chat--cli {
+  border-radius: 10px 10px 0px 10px;
+  background-color: #5F259F;
+  margin: 1em 2em 0em auto;
 }
 /*# sourceMappingURL=main.css.map */

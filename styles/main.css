@@ -408,7 +408,7 @@ h1, h2, h3 {
 }
 
 .sucursales__info {
-  padding-right: 40px;
+  padding-right: 10px;
   padding-left: 10px;
 }
 
@@ -439,5 +439,25 @@ h1, h2, h3 {
   font-weight: 500;
   margin: 0;
   color: #9B9B9B;
+}
+
+.sucursales__rellenos {
+  height: 90px;
+  background-color: white;
+}
+
+.sucursales__addtitle {
+  font-size: 18px;
+  color: #5F259F;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.sucursales__addtext {
+  font-size: 20px;
+  color: #5F259F;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
 }
 /*# sourceMappingURL=main.css.map */

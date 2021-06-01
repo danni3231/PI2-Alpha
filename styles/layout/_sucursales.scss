@@ -74,7 +74,7 @@
           
       }
       &__info{
-          padding-right: 40px;
+          padding-right: 10px;
           padding-left: 10px;
       }
       &__bank{
@@ -101,5 +101,22 @@
           font-weight: 500;
           margin: 0;
           color: #9B9B9B;
+      }
+      &__rellenos{
+          height: 90px;
+          background-color: $white;
+      }
+      &__addtitle{
+          font-size: 18px;
+          color: $purple;
+          text-align: center;
+          margin-top: 50px;
+      }
+      &__addtext{
+          font-size: 20px;
+          color: $purple;
+          text-align: center;
+          margin-top: 10px;
+          margin-bottom: 50px;
       }
 }

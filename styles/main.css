@@ -199,4 +199,80 @@ p {
 .login__main--ambassador {
   background-color: #FF6900;
 }
+
+.userChat__header {
+  background-color: white;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: .25em;
+  padding-right: 1em;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.userChat__menuDots {
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.userChat__image {
+  height: 50px;
+  width: 50px;
+}
+
+.userChat__level {
+  background: #FF6900;
+  width: 48px;
+  height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  -webkit-transform: translate(0%, -80%);
+          transform: translate(0%, -80%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 15px;
+}
+
+.userChat__levelText {
+  margin: 0;
+  font-size: .7em;
+  font-weight: bold;
+  color: white;
+}
+
+.userChat__status {
+  border-radius: 50%;
+  height: 15px;
+  width: 15px;
+  background: #32FF29;
+}
+
+.userChat__phone {
+  height: 20px;
+}
+
+.userChat__close {
+  height: 18px;
+}
 /*# sourceMappingURL=main.css.map */

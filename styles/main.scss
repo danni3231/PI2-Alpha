@@ -1,10 +1,11 @@
-html{
+html {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
 }
-body{
+
+body {
     width: 360px;
     height: 760px;
 
@@ -15,12 +16,12 @@ body{
     border: 1px solid slategrey;
 }
 
-.logo{
-    &--splash{
+.logo {
+    &--splash {
         width: 65px;
     }
-    
-    &--header{
+
+    &--header {
         width: 37px;
     }
 }
@@ -31,3 +32,4 @@ body{
 @import './components/inputs';
 @import './layout/splashPage';
 @import './layout/login';
+@import './layout/userChat';

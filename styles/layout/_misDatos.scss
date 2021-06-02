@@ -1,0 +1,107 @@
+.misDatosBody{
+    padding: 30px 20px 20px 20px;
+}
+
+.misDatosHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    &__div1{
+        width: 10%;
+    }
+
+    &__div2{
+        width: 80%;
+    }
+
+    &__div3{
+        width: 10%;
+    }
+}
+
+.misDatosH3{
+    margin: 0px;
+}
+
+.misDatosIcons{
+    width: 24px;
+    height: 24px;
+
+    &--backIcon{
+        width: 11px;
+        height: 19px;
+    }
+}
+
+.misDatosMain{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+    &__h4{
+        margin: 0px;
+    }
+
+    &__text{
+        color: $textGrey;
+        font-family: 'Inter';
+        font-size: 12px;
+        margin: 2px;
+
+        &--strong{
+            font-weight: 600;
+            color: $textBlack;
+            font-size: 13px;
+            margin: 2px;
+            margin-right: 15px;
+        }
+    }
+}
+
+.personalInfoSection{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.personalInfoDiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+
+    &--row{
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    &--variant{
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 10px;
+        margin-left: 15px;
+    }
+}
+
+.certificateBtn{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 224px;
+    height: 48px;
+    color: $white;
+    background-color: #9B9B9B;
+    font-weight: 500;
+    border-radius: 8px;
+    border: none;
+    font-size: 14px;
+    align-self: center;
+    
+}
+

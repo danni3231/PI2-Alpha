@@ -7,93 +7,104 @@
     <title>Mis Datos</title>
     <link rel="stylesheet" href="./styles/main.css">
 </head>
-<body>
+<body class="misDatosBody">
     <header class="misDatosHeader">
-        <div class="misDatosHeader misDatosHeader__Div1">
-            <img class="misDatosIcons" src="./data/images/notification_outline_dot.svg" alt="backIcon">
+        <div class="misDatosHeader misDatosHeader__div1">
+            <img class="misDatosIcons misDatosIcons--backIcon" src="./data/images/backIcon.svg" alt="backIcon">
         </div>
-        <div class="misDatosHeader misDatosHeader__Div2">
-            <h3>Mis Datos</h3>
+        <div class="misDatosHeader misDatosHeader__div2">
+            <h3 class="misDatosH3">Mis Datos</h3>
         </div>
-        <div class="misDatosHeader misDatosHeader__Div3">
-            <img class="misDatosIcons" src="" alt="notificationBlackIcon">
+        <div class="misDatosHeader misDatosHeader__div3">
+            <img class="misDatosIcons" src="./data/images/notificationBlackIcon.svg" alt="notificationBlackIcon">
         </div>
     </header>
     <main class="misDatosMain">
         <section class="personalInfoSection">
-            <h4 class="personalInfoSection personalInfoSection__h4">Información personal</h4>
+            <h4 class="misDatosMain misDatosMain__h4">Información personal</h4>
             <div class="personalInfoDiv">
-                <div class="profileDivRow profileDivRow--column">
-                    <h3 class="profileBodyCont profileBodyCont__h3--variant">102</h3>
-                    <p class="profileP profileP--variant">Horas</p>
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/Profile.svg" alt="profileIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text--strong">Cristina Fernández</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text">CC 123456789</p>
+                        </div>
+                    </div>
                 </div>
-                <div class="profileDivRow profileDivRow--column">
-                    <h3 class="profileBodyCont profileBodyCont__h3--variant">80</h3>
-                    <p class="profileP profileP--variant">Asistencias</p>
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/cellphoneIcon.svg" alt="cellPhoneIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text">Número de teléfono</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text--strong">3012453625</p>
+                            <img src="./data/images/editIcon.svg" alt="editIcon">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="profileDivRow profileDivRow--variant">
-                <div class="divIcon">
-                    <img class="profileIcons" src="./data/images/Profile.svg" alt="profileIcon">
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/mailIcon.svg" alt="mailIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text">Correo electrónico</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text--strong">cristinafernandez@correo.com</p>
+                            <img src="./data/images/editIcon.svg" alt="editIcon">
+                        </div>
+                    </div>
                 </div>
-                <div class="divText">
-                    <p class="profileP">Mis datos</p>
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/locationIcon.svg" alt="locationIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text">Ubicacióm</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text--strong">Cali, Valle del Cauca</p>
+                            <img src="./data/images/editIcon.svg" alt="editIcon">
+                        </div>
+                    </div>
                 </div>
-                <div class="divIcon divIcon--variant">
-                    <img src="./data/images/Union.svg" alt="arrowIcon">
-                </div>
-            </div>
-            <div class="profileDivRow profileDivRow--variant">
-                <div class="divIcon">
-                    <img class="profileIcons" src="./data/images/badge 1.svg" alt="rewardsIcon">
-                </div>
-                <div class="divText">
-                    <p class="profileP">Mis recompensas</p>
-                </div>
-                <div class="divIcon divIcon--variant">
-                    <img src="./data/images/Union.svg" alt="arrowIcon">
-                </div>
-            </div>
-            <div class="profileDivRow profileDivRow--variant">
-                <div class="divIcon">
-                    <img class="profileIcons" src="./data/images/back-arrow-2 1.svg" alt="historyIcon">
-                </div>
-                <div class="divText">
-                    <p class="profileP">Historial de asistencias</p>
-                </div>
-                <div class="divIcon divIcon--variant">
-                    <img src="./data/images/Union.svg" alt="arrowIcon">
-                </div>
-            </div>
-            <div class="profileDivRow profileDivRow--variant">
-                <div class="divIcon">
-                    <img class="profileIcons" src="./data/images/Setting.svg" alt="settingsIcon">
-                </div>
-                <div class="divText">
-                    <p class="profileP">Configuración</p>
-                </div>
-                <div class="divIcon divIcon--variant">
-                    <img src="./data/images/Union.svg" alt="arrowIcon">
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/portfolioIcon.svg" alt="portfolioIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text">Ocupación</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text--strong">Estudiante universitario</p>
+                            <img src="./data/images/editIcon.svg" alt="editIcon">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="profileDivRow profileDivRow--variant">
-                <div class="divIcon">
-                    <img class="profileIcons" src="./data/images/Paper.svg" alt="termsIcon">
-                </div>
-                <div class="divText">
-                    <p class="profileP">Términos y Condiciones</p>
-                </div>
-                <div class="divIcon divIcon--variant">
-                    <img src="./data/images/Union.svg" alt="arrowIcon">
-                </div>
-            </div>
-            <button class="logoutBtn"> 
-                <img class="profileIcons profileIcons--variant" src="./data/images/Logout.svg" alt="logoutIcon">
-                Cerrar Sesión
-            </button>
+            <p class="misDatosMain misDatosMain__text">Si deseas realizar algún cambio, se mandará una solicitud al 
+                Banco para verificar que la nueva información ingresada sea real y
+                válida.
+            </p>
         </section>
-        <section>
-
+        <section class="personalInfoSection">
+            <h4 class="misDatosMain misDatosMain__h4">Certificados Universitarios</h4>
+            <div class="personalInfoDiv">
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/idIcon.svg" alt="idIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text--strong">Cristina Fernández</p>
+                        <div class="personalInfoDiv personalInfoDiv--row">
+                            <p class="misDatosMain misDatosMain__text">Código A00112233</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="personalInfoDiv personalInfoDiv--row">
+                    <img src="./data/images/graduationIcon.svg" alt="graduationIcon">
+                    <div class="personalInfoDiv personalInfoDiv--variant">
+                        <p class="misDatosMain misDatosMain__text--strong">Universidad Icesi</p>
+                    </div>
+                </div>
+                <button class="certificateBtn"> 
+                    Actualizar Certificados
+                </button>
+                <p class="misDatosMain misDatosMain__text">Tus certificados de estudiante están actualizados. Recuerda que debes 
+                    actualizarlos antes de cada semestre. Te notificaremos cuando debas 
+                    hacerlo.
+                </p>
+            </div>
+           
         </section>
     </main>
 </body>

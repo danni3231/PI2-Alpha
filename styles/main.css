@@ -574,4 +574,150 @@ p {
   border: none;
   font-size: 14px;
 }
+
+.misDatosBody {
+  padding: 30px 20px 20px 20px;
+}
+
+.misDatosHeader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.misDatosHeader__div1 {
+  width: 10%;
+}
+
+.misDatosHeader__div2 {
+  width: 80%;
+}
+
+.misDatosHeader__div3 {
+  width: 10%;
+}
+
+.misDatosH3 {
+  margin: 0px;
+}
+
+.misDatosIcons {
+  width: 24px;
+  height: 24px;
+}
+
+.misDatosIcons--backIcon {
+  width: 11px;
+  height: 19px;
+}
+
+.misDatosMain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 20px;
+}
+
+.misDatosMain__h4 {
+  margin: 0px;
+}
+
+.misDatosMain__text {
+  color: #828282;
+  font-family: 'Inter';
+  font-size: 12px;
+  margin: 2px;
+}
+
+.misDatosMain__text--strong {
+  font-weight: 600;
+  color: #2D2D2D;
+  font-size: 13px;
+  margin: 2px;
+  margin-right: 15px;
+}
+
+.personalInfoSection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.personalInfoDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 10px;
+}
+
+.personalInfoDiv--row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.personalInfoDiv--variant {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px;
+  margin: 10px;
+  margin-left: 15px;
+}
+
+.certificateBtn {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 224px;
+  height: 48px;
+  color: white;
+  background-color: #9B9B9B;
+  font-weight: 500;
+  border-radius: 8px;
+  border: none;
+  font-size: 14px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
 /*# sourceMappingURL=main.css.map */

@@ -27,6 +27,7 @@
 
     &__h5{
         color: $titleGrey;
+        font-size: 11px;
         padding: 0px;
         margin: 0px 10px 0px 0px;
     }
@@ -36,6 +37,10 @@
         font-size: 12px;
         padding: 0px;
         margin: 0px;
+
+        &--right{
+            text-align: right;
+        }
     }
 
     &__image1{
@@ -121,7 +126,7 @@
     &__titleCont{
         display: flex;
         flex-direction: row;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         align-items: center;
     }
     

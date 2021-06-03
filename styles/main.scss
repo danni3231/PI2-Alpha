@@ -37,10 +37,19 @@ body{
     }
 }
 
+.close{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
 @import './utils/colors';
 @import './utils/typography';
 @import './components/btns';
 @import './components/inputs';
+@import './components/modal';
 @import './layout/splashPage';
 @import './layout/login';
 @import './layout/homeUser';

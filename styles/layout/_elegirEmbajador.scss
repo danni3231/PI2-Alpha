@@ -1,0 +1,134 @@
+.headerCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &__h3Cont{
+        width: 90%;
+        padding-left: 20px;
+    }
+
+    &__h3{
+        margin-left: 40px;
+    }
+
+    &__icon{
+        width: 10%;
+        padding-right: 20px;
+    }
+
+}
+
+.mainCont{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px 0px 20px;
+
+    &__h5{
+        color: $titleGrey;
+        padding: 0px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    &__p{
+        color: $textGrey;
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    &__image1{
+        width: 35px;
+        height: 35px;
+        padding: 0px;
+    }
+
+    &__image2{
+        width: 50px;
+        height: 60px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+
+    &__image3{
+        width: 54px;
+        height: 24px;
+        padding: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+.section{
+    display: flex;
+    flex-direction: column;
+
+    &__header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title{
+        color: $titleGrey;
+
+        &--orange{
+            color: $orange;
+            margin: 0px;
+        }
+    }
+}
+
+.listCont {
+    display: flex;
+    flex-direction: column;
+
+    &--row{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}
+
+.listItem{
+
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+
+    &--col{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image{
+        width: 15%;
+        justify-content: center;
+        margin: 0px;
+    }
+
+    &__body{
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+        margin: 0px;
+    }
+
+    &__titleCont{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    
+    &__date{
+        width: 20%;
+        margin: 0px;
+    }
+}
+
+

@@ -5,7 +5,8 @@ html{
     justify-content: center;
     background-color: white;
 }
-body{
+
+body {
     width: 360px;
     height: 760px;
     position: relative;
@@ -31,8 +32,8 @@ body{
     &--splash{
         width: 65px;
     }
-    
-    &--header{
+
+    &--header {
         width: 37px;
     }
 }
@@ -62,3 +63,4 @@ body{
 @import './layout/elegirEmbajador';
 @import './layout/perfil';
 @import './layout/misDatos';
+@import './layout/userChat';

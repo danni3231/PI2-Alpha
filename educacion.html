@@ -4,68 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
-    <link rel="stylesheet" href="./styles/layout/_educacion.scss">
-    <title>Educacion</title>
+    <link rel="icon" href="./data/images/wLogo.png">
+    <title>W a tu lado</title>
 </head>
 <body class="educacion__body">
-    <section class="educacion__header">
-        <h2 class="educacion__title">Educación</h2>
-        <img src="./data/images/educacion/coolicon.png" class="educacion__notification">
-        <input type="text" class="educacion__searchbar" placeholder="Busca artículos">
+    <article class="scroll">
+        <section class="educacion__header">
+            <h2 class="educacion__title">Educación</h2>
+            <img src="./data/images/educacion/coolicon.png" class="educacion__notification">
+            <input type="text" class="educacion__searchbar" placeholder="Busca artículos">
+        </section>
+
+        <section class="educacion__articles">
+            <h2 class="educacion__sectiontitle">Últimos artículos</h2>
+            <div class="educacion__lastarticles">
+                <div class="educacion__article">
+                    <a href=""><img src="./data/images/educacion/article1.png" class="educacion__article__image"></a>
+                    
+                    <h2 class="educacion__articlesubtitle">Educación financiera</h2>
+                    <h2 class="educacion__articlestitle">El ABC de un<br> presupuesto</h2>
+                    <div class="educacion__goto">
+                        <a href="">
+                            <img src="./data/images/educacion/reactions.png" class="educacion__reactions">
+                        </a>
+                        <a href="./articulo.html">
+                            <img src="./data/images/educacion/next.png" >
+                        </a>
+
+                    </div>
+
+                </div>
+               <!-- <div class="educacion__article">
+                    <a href=""><img src="./data/images/educacion/article1.png" class="educacion__article__image"></a>
+                    
+                    <h2 class="educacion__articlesubtitle">Educación financiera</h2>
+                    <h2 class="educacion__articlestitle">El ABC de un<br> presupuesto</h2>
+                    <a href="">
+                        <img src="./data/images/educacion/next.png" class="educacion__goto">
+                    </a>
+                    <a href="">
+                        <img src="./data/images/educacion/reactions.png" class="educacion__reactions">
+                    </a>
+                </div>-->
+            </div>
+            
+            <h2 class="educacion__articlesubtitle2">Tecnología y negocios</h2>
+            <div class="educacion__article2">
+                <a href=""><img src="./data/images/educacion/article2.png" class="educacion__article__image"></a>
+            </div>
+    
+        </section>
+
+    </article>
+
+
+    <section class="navBarEmbajador">
+
+        <section class="navBarEmbajador__section">
+
+
+            <div class="navBarEmbajador__item navBarEmbajador--activity">
+                <svg class="navBarEmbajador__icon" width="24" height="21" viewBox="0 0 24 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M5.25 21H1.16667C0.525 21 0 20.475 0 19.8333V8.16667C0 7.525 0.525 7 1.16667 7H5.25C5.89167 7 6.41667 7.525 6.41667 8.16667V19.8333C6.41667 20.475 5.89167 21 5.25 21ZM13.7083 0H9.625C8.98333 0 8.45833 0.525 8.45833 1.16667V19.8333C8.45833 20.475 8.98333 21 9.625 21H13.7083C14.35 21 14.875 20.475 14.875 19.8333V1.16667C14.875 0.525 14.35 0 13.7083 0ZM22.1667 9.33333H18.0833C17.4417 9.33333 16.9167 9.85833 16.9167 10.5V19.8333C16.9167 20.475 17.4417 21 18.0833 21H22.1667C22.8083 21 23.3333 20.475 23.3333 19.8333V10.5C23.3333 9.85833 22.8083 9.33333 22.1667 9.33333Z"
+                        fill="#9B9B9B" />
+                </svg>
+                <p class="navBarEmbajador__label">
+                    Actividad
+                </p>
+
+            </div>
+            <div class="navBarEmbajador__item navBarEmbajador--chat">
+                <svg class="navBarEmbajador__icon" width="21" height="21" viewBox="0 0 21 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.5609 8.55062e-05C6.87367 -0.0147321 3.44982 1.89719 1.53362 5.03994C-0.382818 8.1831 -0.511473 12.0986 1.19454 15.3604L1.38755 15.7367C1.46134 15.875 1.47557 16.0242 1.43281 16.1621C1.15714 16.8906 0.914931 17.6773 0.721662 18.4766L0.701144 18.6488C0.701144 19.4525 1.12996 20.0047 1.98104 19.9858L2.12276 19.9688C2.89588 19.798 3.65726 19.5781 4.40224 19.3103C4.50099 19.2853 4.66273 19.295 4.8087 19.3547L5.52535 19.7602C5.52697 19.7652 5.52818 19.769 5.53568 19.7734L5.58378 19.7902C9.44259 21.8192 14.1553 21.2595 17.4297 18.3831C20.7046 15.5063 21.8609 10.9095 20.3359 6.8289C18.8111 2.74876 14.9221 0.0321369 10.5609 8.55062e-05ZM10.2559 1.46881L10.5508 1.46419C14.3043 1.49274 17.6514 3.83087 18.9635 7.34179C20.2755 10.8523 19.2807 14.807 16.4628 17.2824L16.2316 17.4787C13.5058 19.7168 9.72115 20.1678 6.54435 18.6339L6.24223 18.4825L6.25518 18.4843L6.23607 18.479L5.79264 18.2246C5.63297 18.1343 5.50631 18.066 5.40422 18.0168C4.91791 17.8163 4.42424 17.7868 3.95993 17.9146L3.52038 18.0656C3.22988 18.1615 2.94393 18.2482 2.65939 18.3266L2.24458 18.435L2.14576 18.821C2.32493 18.08 2.54946 17.3507 2.81811 16.6372C2.99098 16.084 2.93812 15.5299 2.68545 15.0571L2.49548 14.6865C1.02511 11.8752 1.13578 8.50683 2.78458 5.80264C4.38207 3.18259 7.19771 1.5563 10.2559 1.46881ZM4.69834 10.5C4.69834 9.83832 5.23516 9.30238 5.89677 9.30238C6.55838 9.30238 7.0952 9.83832 7.0952 10.5C7.0952 11.1618 6.55838 11.6977 5.89677 11.6977C5.23516 11.6977 4.69834 11.1618 4.69834 10.5ZM9.35704 10.5C9.35704 9.83832 9.89386 9.30238 10.5555 9.30238C11.2171 9.30238 11.7539 9.83832 11.7539 10.5C11.7539 11.1618 11.2171 11.6977 10.5555 11.6977C9.89386 11.6977 9.35704 11.1618 9.35704 10.5ZM15.2143 9.30238C14.5527 9.30238 14.0159 9.83832 14.0159 10.5C14.0159 11.1618 14.5527 11.6977 15.2143 11.6977C15.8759 11.6977 16.4128 11.1618 16.4128 10.5C16.4128 9.83832 15.8759 9.30238 15.2143 9.30238Z"
+                        fill="#9B9B9B" />
+                </svg>
+                <p class="navBarEmbajador__label">
+                    Asistencia
+                </p>
+
+            </div>
+            <div class="navBarEmbajador__item navBarEmbajador--edu">
+                <svg class="navBarEmbajador__icon" xmlns="http://www.w3.org/2000/svg" width="17" height="21" viewBox="0 0 17 21" fill="none">
+                    <path d="M1.60938 18.7031C1.24692 18.7031 0.953125 18.4093 0.953125 18.0469V2.70703C0.953125 1.21435 2.16747 0 3.66016 0H15.3906C15.7531 0 16.0469 0.293836 16.0469 0.65625V15.75C16.0469 16.1124 15.7531 16.4062 15.3906 16.4062C15.0282 16.4062 14.7344 16.1124 14.7344 15.75V1.3125H3.66016C2.8912 1.3125 2.26562 1.93807 2.26562 2.70703V18.0469C2.26562 18.4093 1.97183 18.7031 1.60938 18.7031Z" fill="#2D2D2D"/>
+                    <path d="M5 16V1H15V16H5Z" fill="#2D2D2D"/>
+                    <path d="M15.3906 21H3.90625C2.27789 21 0.953125 19.6752 0.953125 18.0469C0.953125 16.4185 2.27789 15.0938 3.90625 15.0938H15.3906C15.7531 15.0938 16.0469 15.3876 16.0469 15.75C16.0469 16.1124 15.7531 16.4062 15.3906 16.4062H3.90625C3.00161 16.4062 2.26562 17.1422 2.26562 18.0469C2.26562 18.9515 3.00161 19.6875 3.90625 19.6875H15.3906C15.7531 19.6875 16.0469 19.9813 16.0469 20.3438C16.0469 20.7062 15.7531 21 15.3906 21Z" fill="#2D2D2D"/>
+                    <path d="M15.3906 18.7031H3.90625C3.54379 18.7031 3.25 18.4093 3.25 18.0469C3.25 17.6845 3.54379 17.3906 3.90625 17.3906H15.3906C15.7531 17.3906 16.0469 17.6845 16.0469 18.0469C16.0469 18.4093 15.7531 18.7031 15.3906 18.7031Z" fill="#2D2D2D"/>
+                    <path d="M4.5625 16.4062C4.20004 16.4062 3.90625 16.1124 3.90625 15.75V0.65625C3.90625 0.293836 4.20004 0 4.5625 0C4.92496 0 5.21875 0.293836 5.21875 0.65625V15.75C5.21875 16.1124 4.92496 16.4062 4.5625 16.4062Z" fill="#2D2D2D"/>
+                </svg>
+                <p class="navBarEmbajador__label">
+                    Educación
+                </p>
+
+            </div>
+
+            <div class="navBarEmbajador__item navBarEmbajador--profile">
+                <svg class="navBarEmbajador__icon" width="17" height="21" viewBox="0 0 17 21" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13.9587 5.55561C13.9587 8.63949 11.4861 11.1123 8.40004 11.1123C5.31504 11.1123 2.84136 8.63949 2.84136 5.55561C2.84136 2.47172 5.31504 0 8.40004 0C11.4861 0 13.9587 2.47172 13.9587 5.55561ZM8.4 20.9999C3.84549 20.9999 0 20.2596 0 17.4036C0 14.5465 3.86965 13.8325 8.4 13.8325C12.9556 13.8325 16.8 14.5728 16.8 17.4288C16.8 20.2859 12.9303 20.9999 8.4 20.9999Z"
+                        fill="#9B9B9B" />
+                </svg>
+                <p class="navBarEmbajador__label">
+                    Mi perfil
+                </p>
+
+            </div>
+        </section>
+
     </section>
-    <section class="educacion__articles">
-        <h2 class="educacion__sectiontitle">Últimos artículos</h2>
-        <div class="educacion__lastarticles">
-            <div class="educacion__article">
-                <a href=""><img src="./data/images/educacion/article1.png" class="educacion__article__image"></a>
-                
-                <h2 class="educacion__articlesubtitle">Educación financiera</h2>
-                <h2 class="educacion__articlestitle">El ABC de un<br> presupuesto</h2>
-                <a href="./articulo.html">
-                    <img src="./data/images/educacion/next.png" class="educacion__goto">
-                </a>
-                <a href="">
-                    <img src="./data/images/educacion/reactions.png" class="educacion__reactions">
-                </a>
-            </div>
-           <!-- <div class="educacion__article">
-                <a href=""><img src="./data/images/educacion/article1.png" class="educacion__article__image"></a>
-                
-                <h2 class="educacion__articlesubtitle">Educación financiera</h2>
-                <h2 class="educacion__articlestitle">El ABC de un<br> presupuesto</h2>
-                <a href="">
-                    <img src="./data/images/educacion/next.png" class="educacion__goto">
-                </a>
-                <a href="">
-                    <img src="./data/images/educacion/reactions.png" class="educacion__reactions">
-                </a>
-            </div>-->
-        </div>
-        
-        <h2 class="educacion__articlesubtitle2">Tecnología y negocios</h2>
-        <div class="educacion__article2">
-            <a href=""><img src="./data/images/educacion/article2.png" class="educacion__article__image"></a>
-        </div>
-        <div class="educacion__navbar">
-            <div class="educacion__link">
-                <img src="./data/images/educacion/actividad.png">
-                <a href="">Actividad</a> 
-            </div>
-            <div class="educacion__link">
-                <img src="./data/images/educacion/Chat.png">
-                <a href="">Asistencia</a> 
-            </div>
-            <div class="educacion__link">
-                <img src="./data/images/educacion/educacion.png">
-                <a href="">Educación</a> 
-            </div>
-            <div class="educacion__link">
-                <img src="./data/images/educacion/Profile.png">
-                <a href="">Mi perfil</a> 
-            </div>
-          </div>
-    </section>
+   
     
 </body>
+
+<script src="./scripts/navAmbassador.js"></script>
+
 </html>

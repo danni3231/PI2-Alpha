@@ -1,0 +1,121 @@
+.modal--qualification{
+    width: 311px;
+    height: 189px;
+    background-color: $white;
+    border-radius: 8px;
+
+    &--expand{
+        height: 390px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        position: relative;
+        width: 100%;
+        height: 80px;
+
+        h3{
+            width: 201px;
+            margin-bottom: 0px;
+            height: fit-content;
+        }
+    }
+
+    main{
+        height: fit-content;
+    }
+
+    h3{
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+
+    &__close{
+        position: absolute;
+        right: 20px;
+        top: 17px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    .rateStar {
+        width: 260px;
+        margin: 0 auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 20px;
+
+
+        &__rate {
+            width: 230px;
+            display: flex;
+            justify-content: space-around;
+            direction: rtl;
+           // flex-direction: row-reverse;
+            height: fit-content;
+            text-align: center;
+
+            label{
+                font-size: 33px;
+                color: grey;
+
+                &:hover,
+                &:hover ~ label {
+                  color: orange;
+                }
+
+            }
+
+            input[type="radio"] {
+                display: none;
+
+                &:checked, &:checked ~ label{
+                    color: orange;
+                }
+            }
+        }
+
+        &__tags{
+            width: 230px;
+            display: flex;
+            justify-content: space-around;
+            
+
+            p{
+                font-size: 12px;
+            }
+        }
+
+        &__extra{
+            display: none;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        &__comment{
+            height: 70px;
+            background: #F6F6F6;
+            border: 1px solid #E8E8E8;
+            box-sizing: border-box;
+            border-radius: 16px;
+            margin-bottom: 20px;
+        }
+
+        .btn{
+            width: 110px;
+        }
+    }
+
+}

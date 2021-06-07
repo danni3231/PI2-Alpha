@@ -3,14 +3,17 @@ const btnOffices = nav.querySelector('.nav-bar__item--offices');
 const btnHome = nav.querySelector('.nav-bar__item--home');
 const btnChat = nav.querySelector('.nav-bar__item--chat');
 
-const modalAmbassador = document.querySelector('.modal--embajador');
-const modalAmbassadorClose = document.querySelector('.headerCont__icon');
+const modalAmb = document.querySelector('.modal--embajador');
+const modalAmbClose = document.querySelector('.headerCont__icon');
+const modalAmbBtn = document.querySelector('.modal--embajador__btn');
+
+const modalChat = document.querySelector('.modal--chat');
 
 //manage nav
 
 btnChat.addEventListener('click', (e) => {
     e.preventDefault();
-    modalAmbassador.classList.replace('close', 'show');
+    modalAmb.classList.replace('close', 'show');
 
     btnChat.innerHTML = `    
     <svg class="nav-bar__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
@@ -55,8 +58,8 @@ btnHome.addEventListener('click',(e) =>{
 })
 //close modal
 
-modalAmbassadorClose.addEventListener('click', ()=>{
-    modalAmbassador.classList.replace('show', 'close');
+modalAmbClose.addEventListener('click', ()=>{
+    modalAmb.classList.replace('show', 'close');
     console.log(location.pathname);
     btnChat.innerHTML = `    
     <svg class="nav-bar__icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -108,6 +111,9 @@ modalAmbassadorClose.addEventListener('click', ()=>{
         </p>
         `;
     }
+});
 
-   
+modalAmbBtn.addEventListener('click', () => {
+    modalAmb.classList.replace('show', 'close');
+    modalChat.classList.replace('close', 'show');
 });

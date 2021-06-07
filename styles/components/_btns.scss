@@ -34,6 +34,15 @@
         background-position: center;
         background-position-y: 60%;
         background-color: $red;
+
+    }
+    
+    &--request{
+        background-color: $white;
+        color: $orange;
+
+        width: 96px;
+        height: 32px;
     }
 
 }

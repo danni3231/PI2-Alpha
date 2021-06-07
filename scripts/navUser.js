@@ -186,11 +186,7 @@ endCall.addEventListener('click', (e) => {
 btnOp.addEventListener('click', () => {
     modalOp.classList.replace('close', 'show');
 });
-
-if(modalOp.classList.contains('show')){
-    console.log('open');
-
-}
+s
 
 btnEndChat.addEventListener('click', ()=>{
     modalChat.classList.replace('show', 'close');

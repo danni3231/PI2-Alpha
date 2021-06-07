@@ -119,6 +119,201 @@
         </section>
 
     </section>
+
+    
+    <article class="modal modal--embajador close">
+        <header class="headerCont">
+            <div class="headerCont headerCont__h3Cont">
+                <h3 class="headerCont headerCont__h3">Elige un chat</h3>
+            </div>
+            <div class="headerCont headerCont__icon click">
+                <img src="./data/images/xIcon.svg" alt="IconoCerrar">
+            </div>
+        </header>
+        <main class="mainCont">
+            <section class="section">
+                <div class="section section__header">
+                    <h4 class="section section__title">Asistencias asignadas</h4>
+                </div>
+                <div class="listCont click modal--embajador__chat">
+                    <div class="listItem">
+                        <div class="listItem listItem__image">
+                            <img class="mainCont mainCont__image1" src="./data/images/enrique.png"
+                                alt="fotoEmbajador">
+                        </div>
+                        <div class="listItem listItem__body">
+                            <div class="listItem listItem__titleCont">
+                                <h5 class="mainCont mainCont__h5">Enrique Peña</h5>
+                                <img src="./data/images/onlineDot.svg" alt="IconoOnline">
+                            </div>
+                            <p class="mainCont mainCont__p">¡Hola María!, en qué puedo...</p>
+                        </div>
+                        <div class="listItem listItem__date">
+                            <p class="mainCont mainCont__p mainCont__p--right">26 de abril</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section section__header">
+                    <h4 class="section section__title">Asistencias asignadas</h4>
+                    <h5 class="section section__title--orange">Ver todas</h5>
+                </div>
+                <div class="listCont">
+                    <div class="listItem">
+                        <div class="listItem listItem__image">
+                            <img class="mainCont mainCont__image1" src="./data/images/cristina.svg"
+                                alt="fotoEmbajador">
+                        </div>
+                        <div class="listItem listItem__body">
+                            <div class="listItem listItem__titleCont">
+                                <h5 class="mainCont mainCont__h5">Cristina Fernández</h5>
+                                <img src="./data/images/onlineDot.svg" alt="IconoOnline">
+                            </div>
+                            <p class="mainCont mainCont__p">Muchas gracias por la ayuda.</p>
+                        </div>
+                        <div class="listItem listItem__date">
+                            <p class="mainCont mainCont__p mainCont__p--right">26 de abril</p>
+                        </div>
+                    </div>
+                    <div class="listItem">
+                        <div class="listItem listItem__image">
+                            <img class="mainCont mainCont__image1" src="./data/images/fer.png"
+                                alt="fotoEmbajador">
+                        </div>
+                        <div class="listItem listItem__body">
+                            <div class="listItem listItem__titleCont">
+                                <h5 class="mainCont mainCont__h5">Fernanda Ramírez</h5>
+                                <img src="./data/images/onlineDot.svg" alt="IconoOnline">
+                            </div>
+                            <p class="mainCont mainCont__p">Ya lo encontré, muchas gra...</p>
+                        </div>
+                        <div class="listItemDate">
+                            <p class="mainCont mainCont__p mainCont__p--right">20 de abril</p>
+                        </div>
+                    </div>
+                    <div class="listItem">
+                        <div class="listItem listItem__image">
+                            <img class="mainCont mainCont__image1" src="./data/images/carlos.png"
+                                alt="fotoEmbajador">
+                        </div>
+                        <div class="listItem listItem__body">
+                            <div class="listItem listItem__titleCont">
+                                <h5 class="mainCont mainCont__h5">Carlos Rodriguez</h5>
+                                <img src="./data/images/onlineDot.svg" alt="IconoOnline">
+                            </div>
+                            <p class="mainCont mainCont__p">Quedo atento, gracias!</p>
+                        </div>
+                        <div class="listItemDate">
+                            <p class="mainCont mainCont__p mainCont__p--right">08 de abril</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </article>
+
+    <article class="modal modal--chat close">
+
+        <section class="userChat">
+            <!-- Header Chat -->
+            <header class="userChat__header">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots click">
+                <div class="userChat__profile">
+                    <img src="./data/images/enrique.png" alt="" class="userChat__image">
+                </div>
+
+                <h2 class="userChat__ambassadorName">Enrique Peña</h2>
+                <div class="userChat__status"></div>
+                <img src="./data/images/phonePurple.svg" alt="" class="userChat__phone click">
+                <img src="./data/images/close.svg" alt="" class="userChat__close click">
+
+            </header>
+
+            <!-- Area del Chat-->
+            <main class="userChat__chatArea scroll scroll--chat">
+                <div class="userChat__startLog">
+                    <p class="userChat__date">Abril 26 de 2021</p>
+                    <h3 class="userChat__title">Solicitud de asistencias</h3>
+                </div>
+
+                <div class="userChat__chat userChat__chat--cli">
+                    <p>¡Hola Enrique!, ¿en qué puedo ayudarte?</p>
+                </div>
+
+
+                <div class="userChat__chat userChat__chat--amb">
+                    <p>Hola Mariana, estoy intentando ver el saldo de mi cuenta pero no sé cómo hacerlo  </p>
+                </div>
+   
+                <form action="" class="userChat__inputContainer">
+                    <input type="text" name="chat" class="input userChat__input" placeholder="Escribe un mensaje...">
+                    <button class="btn btn--secondary userChat__send"></button>
+                </form>
+
+            </main>
+
+        </section>
+
+        <article class="modal modal--options close"> 
+            <div class="click modal--options__end">
+                <img src="./data/images/Logout_na.svg" alt="">
+                <p class="bold">Terminar asistencia</p>
+            </div>
+            <div  class="click modal--options__report">
+                <img src="./data/images/Info Circle.svg" alt="">
+                <p class="bold">Reportar embajador</p>
+            </div>
+        </article>
+
+    </article>
+
+    <article class="modal modal--call close">
+
+        <section class="userChat">
+            <!-- Header Chat -->
+            <header class="userChat__header">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots">
+                <h2 class="userChat__ambassadorName">Llamada a cliente</h2>
+                <img src="./data/images/close.svg" alt="" class="userChat__close--call">
+
+            </header>
+
+            <!-- Area del Chat-->
+            <main class="userChat__callArea">
+
+                <div class="userChat__callArea__profile">
+                    <div class="userChat__profile">
+                        <img src="./data/images/enrique.png" alt="" class="userChat__image">
+                    </div>
+
+                    <div class="userChat__callArea__name">
+                        <h2 class="userChat__ambassadorName">Mariana L.</h2>
+                        <div class="userChat__status"></div>
+                    </div>
+
+                    <div class="userChat__callArea__title">
+                        <img src="./data/images/phone_white.svg" alt="">
+                        <h2 class="">Llamando</h2>
+                    </div>
+
+                </div>
+
+                <form action="" class="userChat__callArea__inputContainer">
+                    <img src="./data/images/loud.svg" alt="">
+                    <button class="btn btn--closeCall"></button>
+                    <img src="./data/images/mute.svg" alt="">
+                </form>
+
+
+
+            </main>
+
+        </section>
+
+    </article>
    
     
 </body>

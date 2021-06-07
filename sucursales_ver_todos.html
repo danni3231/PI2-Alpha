@@ -110,7 +110,6 @@
 
     </article>
 
-
     <section class="nav-bar">
 
         <section class="nav-bar__section">
@@ -254,15 +253,165 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section class="modal--embajador__btn">
                 <button class="btn btn--primary">Asistencia rápida</button>
             </section>
         </main>
 
     </article>
 
+    <article class="modal modal--chat close">
+
+        <section class="userChat">
+            <!-- Header Chat -->
+            <header class="userChat__header">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots click">
+                <div class="userChat__profile">
+                    <img src="./data/images/marianaL.png" alt="" class="userChat__image">
+                    <div class="userChat__level">
+                        <p class="userChat__levelText">Nivel 2</p>
+                    </div>
+                </div>
+
+                <h2 class="userChat__ambassadorName">Mariana L.</h2>
+                <div class="userChat__status"></div>
+                <img src="./data/images/phonePurple.svg" alt="" class="userChat__phone click">
+                <img src="./data/images/close.svg" alt="" class="userChat__close click">
+
+            </header>
+
+            <!-- Area del Chat-->
+            <main class="userChat__chatArea scroll scroll--chat">
+                <div class="userChat__startLog">
+                    <p class="userChat__date">Abril 26 de 2021</p>
+                    <h3 class="userChat__title">Solicitaste Asistencia</h3>
+                </div>
+
+                <div class="userChat__chat userChat__chat--amb">
+                    <p>¡Hola Maria!, ¿en qué puedo ayudarte?</p>
+                </div>
+                <div class="userChat__chat userChat__chat--cli">
+                    <p>Hola Mariana, estoy intentando ver el saldo de mi cuenta pero no sé cómo hacerlo </p>
+                </div>
+
+                <form action="" class="userChat__inputContainer">
+                    <input type="text" name="chat" class="input userChat__input" placeholder="Escribe un mensaje...">
+                    <button class="btn btn--secondary userChat__send"></button>
+                </form>
+
+            </main>
+
+        </section>
+
+        <article class="modal modal--options close"> 
+            <div class="click modal--options__end">
+                <img src="./data/images/Logout_na.svg" alt="">
+                <p class="bold">Terminar asistencia</p>
+            </div>
+            <div  class="click modal--options__report">
+                <img src="./data/images/Info Circle.svg" alt="">
+                <p class="bold">Reportar embajador</p>
+            </div>
+        </article>
+
+    </article>
+
+    <article class="modal modal--call close">
+
+        <section class="userChat">
+            <!-- Header Chat -->
+            <header class="userChat__header">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots">
+                <h2 class="userChat__ambassadorName">Llamada a embajador</h2>
+                <img src="./data/images/close.svg" alt="" class="userChat__close--call">
+
+            </header>
+
+            <!-- Area del Chat-->
+            <main class="userChat__callArea">
+
+                <div class="userChat__callArea__profile">
+                    <div class="userChat__profile">
+                        <img src="./data/images/marianaL.png" alt="" class="userChat__image">
+                        <div class="userChat__level">
+                            <p class="userChat__levelText">Nivel 2</p>
+                        </div>
+                    </div>
+
+                    <div class="userChat__callArea__name">
+                        <h2 class="userChat__ambassadorName">Mariana L.</h2>
+                        <div class="userChat__status"></div>
+                    </div>
+
+                    <div class="userChat__callArea__title">
+                        <img src="./data/images/phone_white.svg" alt="">
+                        <h2 class="">Llamando</h2>
+                    </div>
+
+                </div>
+
+                <form action="" class="userChat__callArea__inputContainer">
+                    <img src="./data/images/loud.svg" alt="">
+                    <button class="btn btn--closeCall"></button>
+                    <img src="./data/images/mute.svg" alt="">
+                </form>
+
+
+
+            </main>
+
+        </section>
+
+    </article>
+
+    <section class="modal modal--qualification close">
+        <header>
+            <h3>¿Qué te pareció la atención que te brindó el embajador?</h3>
+            <span class="material-icons-outlined material-icons modal--qualification__close">
+                close
+            </span>
+        </header>
+
+
+        <main>
+            <form class="rateStar">
+                <div class="rateStar__rate">
+                    <input id="radio5" type="radio" name="estrellas" value="5">
+                    <label for="radio5">★</label>
+                    <input id="radio4" type="radio" name="estrellas" value="4">
+                    <label for="radio4">★</label>
+                    <input id="radio3" type="radio" name="estrellas" value="3">
+                    <label for="radio3">★</label>
+                    <input id="radio2" type="radio" name="estrellas" value="2">
+                    <label for="radio2">★</label>
+                    <input id="radio1" type="radio" name="estrellas" value="1">
+                    <label for="radio1">★</label>
+                </div>
+
+                <div class="rateStar__tags">
+                    <p>Mala</p>
+                    <p>Buena</p>
+                    <p>Excelente</p>
+                </div>
+
+                <div class="rateStar__extra close">
+                    <h3>¿Tienes algún otro comentario?</h3>
+
+                    <textarea class="rateStar__comment" name="comment" id="" cols="30" rows="10"></textarea>
+    
+                    <button class="btn btn--primary">
+                        enviar
+                    </button>
+                </div>
+
+            </form>
+        </main>
+    </section>
+
+
 
 </body>
 <script src="./scripts/navUser.js"></script>
+<script src="./scripts/rate.js"></script>
 
 </html>

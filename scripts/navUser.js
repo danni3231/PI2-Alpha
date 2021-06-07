@@ -11,12 +11,16 @@ const modalChat = document.querySelector('.modal--chat');
 const modalChatPhone = document.querySelector('.userChat__phone');
 const modalChatClose = document.querySelector('.userChat__close');
 
+const btnOp = document.querySelector('.userChat__menuDots');
+const modalOp = document.querySelector('.modal--options');
+const btnEndChat = document.querySelector('.modal--options__end');
+
 const modalCall = document.querySelector('.modal--call');
 const modalCallClose = document.querySelector('.userChat__close--call');
 const endCall = document.querySelector('.btn--closeCall');
 
 //manage nav
-function changeStatusChat(){
+function changeStatusChat() {
     btnChat.innerHTML = `    
     <svg class="nav-bar__icon" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
         <path fill-rule="evenodd" clip-rule="evenodd" d="M0 10.5158C0 4.98448 4.4205 0 10.521 0C16.485 0 21 4.88983 21 10.4842C21 16.9725 15.708 21 10.5 21C8.778 21 6.867 20.5373 5.334 19.6329C4.7985 19.307 4.347 19.0651 3.7695 19.2544L1.6485 19.8853C1.113 20.0536 0.63 19.6329 0.7875 19.0651L1.491 16.7096C1.6065 16.3836 1.5855 16.0366 1.4175 15.7631C0.5145 14.1017 0 12.2824 0 10.5158ZM9.13495 10.5158C9.13495 11.2624 9.73345 11.8618 10.4789 11.8723C11.2244 11.8723 11.8229 11.2624 11.8229 10.5263C11.8229 9.77967 11.2244 9.18027 10.4789 9.18027C9.74395 9.16975 9.13495 9.77967 9.13495 10.5158ZM13.9755 10.5263C13.9755 11.2624 14.574 11.8723 15.3195 11.8723C16.065 11.8723 16.6635 11.2624 16.6635 10.5263C16.6635 9.77967 16.065 9.18027 15.3195 9.18027C14.574 9.18027 13.9755 9.77967 13.9755 10.5263ZM5.63859 11.8723C4.90359 11.8723 4.29459 11.2624 4.29459 10.5263C4.29459 9.77967 4.89309 9.18027 5.63859 9.18027C6.38409 9.18027 6.98259 9.77967 6.98259 10.5263C6.98259 11.2624 6.38409 11.8618 5.63859 11.8723Z" fill="#2D2D2D"/>
@@ -49,7 +53,7 @@ function changeStatusChat(){
     `;
 };
 
-function changeStatusHome(){
+function changeStatusHome() {
 
     btnChat.innerHTML = `    
     <svg class="nav-bar__icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +83,7 @@ function changeStatusHome(){
     `;
 };
 
-function changeStatusOffices(){
+function changeStatusOffices() {
 
     btnChat.innerHTML = `    
     <svg class="nav-bar__icon" width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,26 +121,26 @@ btnChat.addEventListener('click', (e) => {
 
 });
 
-btnOffices.addEventListener('click',(e) =>{
+btnOffices.addEventListener('click', (e) => {
     e.preventDefault();
     location.href = "sucursales.html";
 })
 
-btnHome.addEventListener('click',(e) =>{
+btnHome.addEventListener('click', (e) => {
     e.preventDefault();
     location.href = "homeUser.html";
 })
 //close modal
 
-modalAmbClose.addEventListener('click', ()=>{
+modalAmbClose.addEventListener('click', () => {
     modalAmb.classList.replace('show', 'close');
     console.log(location.pathname);
 
-    if(location.pathname == '/homeUser.html'){
+    if (location.pathname == '/homeUser.html') {
         changeStatusHome();
     }
 
-    if (location.pathname == '/sucursales.html'){
+    if (location.pathname == '/sucursales.html') {
         changeStatusOffices();
     }
 });
@@ -146,36 +150,62 @@ modalAmbBtn.addEventListener('click', () => {
     modalChat.classList.replace('close', 'show');
 });
 
-modalChatClose.addEventListener('click', ()=>{
+modalChatClose.addEventListener('click', () => {
     modalChat.classList.replace('show', 'close');
-    if(location.pathname == '/homeUser.html'){
+    if (location.pathname == '/homeUser.html') {
         changeStatusHome();
     }
 
-    if (location.pathname == '/sucursales.html'){
+    if (location.pathname == '/sucursales.html') {
         changeStatusOffices();
     }
-}); 
+});
 
-modalChatPhone.addEventListener('click',()=>{
+modalChatPhone.addEventListener('click', () => {
     modalChat.classList.replace('show', 'close');
     modalCall.classList.replace('close', 'show');
 });
 
-modalCallClose.addEventListener('click', ()=>{
+modalCallClose.addEventListener('click', () => {
     modalCall.classList.replace('show', 'close');
-    if(location.pathname == '/homeUser.html'){
+    if (location.pathname == '/homeUser.html') {
         changeStatusHome();
     }
 
-    if (location.pathname == '/sucursales.html'){
+    if (location.pathname == '/sucursales.html') {
         changeStatusOffices();
     }
-}); 
+});
 
-endCall.addEventListener('click', (e)=>{
+endCall.addEventListener('click', (e) => {
     e.preventDefault();
     modalCall.classList.replace('show', 'close');
     modalChat.classList.replace('close', 'show');
 });
+
+btnOp.addEventListener('click', () => {
+    modalOp.classList.replace('close', 'show');
+});
+
+if(modalOp.classList.contains('show')){
+    console.log('open');
+
+}
+
+btnEndChat.addEventListener('click', ()=>{
+    modalChat.classList.replace('show', 'close');
+});
+
+
+document.addEventListener('click', (e) => {
+
+    if( e.target != modalOp && e.target !=btnOp){
+        modalOp.classList.replace('show', 'close');
+   
+    }
+  
+});
+
+
+
 

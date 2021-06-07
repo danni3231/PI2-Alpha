@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="icon" href="./data/images/wLogo.png">
     <title>W a tu lado</title>
@@ -291,6 +292,17 @@
 
         </section>
 
+        <article class="modal modal--options close"> 
+            <div class="click modal--options__end">
+                <img src="./data/images/Logout_na.svg" alt="">
+                <p class="bold">Terminar asistencia</p>
+            </div>
+            <div  class="click modal--options__report">
+                <img src="./data/images/Info Circle.svg" alt="">
+                <p class="bold">Reportar embajador</p>
+            </div>
+        </article>
+
     </article>
 
     <article class="modal modal--call close">
@@ -341,11 +353,56 @@
 
     </article>
 
+    <section class="modal modal--qualification close">
+        <header>
+            <h3>¿Qué te pareció la atención que te brindó el embajador?</h3>
+            <span class="material-icons-outlined material-icons modal--qualification__close">
+                close
+            </span>
+        </header>
+
+
+        <main>
+            <form class="rateStar">
+                <div class="rateStar__rate">
+                    <input id="radio5" type="radio" name="estrellas" value="5">
+                    <label for="radio5">★</label>
+                    <input id="radio4" type="radio" name="estrellas" value="4">
+                    <label for="radio4">★</label>
+                    <input id="radio3" type="radio" name="estrellas" value="3">
+                    <label for="radio3">★</label>
+                    <input id="radio2" type="radio" name="estrellas" value="2">
+                    <label for="radio2">★</label>
+                    <input id="radio1" type="radio" name="estrellas" value="1">
+                    <label for="radio1">★</label>
+                </div>
+
+                <div class="rateStar__tags">
+                    <p>Mala</p>
+                    <p>Buena</p>
+                    <p>Excelente</p>
+                </div>
+
+                <div class="rateStar__extra close">
+                    <h3>¿Tienes algún otro comentario?</h3>
+
+                    <textarea class="rateStar__comment" name="comment" id="" cols="30" rows="10"></textarea>
+    
+                    <button class="btn btn--primary">
+                        enviar
+                    </button>
+                </div>
+
+            </form>
+        </main>
+    </section>
+
 
 
 
 </body>
 
 <script src="./scripts/navUser.js"></script>
+<script src="./scripts/rate.js"></script>
 
 </html>

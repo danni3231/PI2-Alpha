@@ -28,3 +28,20 @@ if(btnNoti){
     });
     
 }
+
+const modalAmb = document.querySelector('.modal--embajador');
+const modalAmbClose = document.querySelector('.headerCont__icon');
+const modalAmbChat = document.querySelector('.modal--embajador__chat');
+
+btnChat.addEventListener('click', ()=>{
+    modalAmb.classList.replace('close', 'show');
+});
+
+modalAmbClose.addEventListener('click', () => {
+    modalAmb.classList.replace('show', 'close');
+ 
+});
+
+modalAmbChat.addEventListener('click', () => {
+    modalAmb.classList.replace('show', 'close');
+});

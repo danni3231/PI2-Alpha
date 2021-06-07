@@ -253,7 +253,7 @@
         <section class="userChat">
             <!-- Header Chat -->
             <header class="userChat__header">
-                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots click">
                 <div class="userChat__profile">
                     <img src="./data/images/marianaL.png" alt="" class="userChat__image">
                     <div class="userChat__level">
@@ -263,8 +263,8 @@
 
                 <h2 class="userChat__ambassadorName">Mariana L.</h2>
                 <div class="userChat__status"></div>
-                <img src="./data/images/phonePurple.svg" alt="" class="userChat__phone">
-                <img src="./data/images/close.svg" alt="" class="userChat__close">
+                <img src="./data/images/phonePurple.svg" alt="" class="userChat__phone click">
+                <img src="./data/images/close.svg" alt="" class="userChat__close click">
 
             </header>
 
@@ -286,6 +286,54 @@
                     <input type="text" name="chat" class="input userChat__input" placeholder="Escribe un mensaje...">
                     <button class="btn btn--secondary userChat__send"></button>
                 </form>
+
+            </main>
+
+        </section>
+
+    </article>
+
+    <article class="modal modal--call close">
+
+        <section class="userChat">
+            <!-- Header Chat -->
+            <header class="userChat__header">
+                <img src="./data/images/menuDots.svg" alt="" class="userChat__menuDots">
+                <h2 class="userChat__ambassadorName">Llamada a embajador</h2>
+                <img src="./data/images/close.svg" alt="" class="userChat__close--call">
+
+            </header>
+
+            <!-- Area del Chat-->
+            <main class="userChat__callArea">
+
+                <div class="userChat__callArea__profile">
+                    <div class="userChat__profile">
+                        <img src="./data/images/marianaL.png" alt="" class="userChat__image">
+                        <div class="userChat__level">
+                            <p class="userChat__levelText">Nivel 2</p>
+                        </div>
+                    </div>
+
+                    <div class="userChat__callArea__name">
+                        <h2 class="userChat__ambassadorName">Mariana L.</h2>
+                        <div class="userChat__status"></div>
+                    </div>
+
+                    <div class="userChat__callArea__title">
+                        <img src="./data/images/phone_white.svg" alt="">
+                        <h2 class="">Llamando</h2>
+                    </div>
+
+                </div>
+
+                <form action="" class="userChat__callArea__inputContainer">
+                    <img src="./data/images/loud.svg" alt="">
+                    <button class="btn btn--closeCall"></button>
+                    <img src="./data/images/mute.svg" alt="">
+                </form>
+
+
 
             </main>
 

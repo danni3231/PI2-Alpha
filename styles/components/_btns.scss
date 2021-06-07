@@ -25,4 +25,15 @@
         }
     }
 
+    &--closeCall{
+        width: 53px;
+        height: 53px;
+        border-radius: 53px;
+        
+        background: url('../../data/images/phone_close.svg') no-repeat;
+        background-position: center;
+        background-position-y: 60%;
+        background-color: $red;
+    }
+
 }

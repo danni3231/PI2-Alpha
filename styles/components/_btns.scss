@@ -23,4 +23,12 @@
         }
     }
 
+    &--request{
+        background-color: $white;
+        color: $orange;
+
+        width: 96px;
+        height: 32px;
+    }
+
 }

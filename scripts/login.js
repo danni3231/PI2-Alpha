@@ -15,7 +15,7 @@ if(typeUser === 'ambassador'){
 loginForm.addEventListener('submit', (e)=>{
     e.preventDefault();
     if(typeUser === 'ambassador'){
-        location.href='homeEmbajador.html';
+        location.href='onboarding.html';
     }else{
         location.href='homeUser.html';
     }

@@ -21,7 +21,8 @@ const endCall = document.querySelector('.btn--closeCall');
 
 const modalAd = document.querySelector('.modal--ad');
 const modalAdClose = document.querySelector('.modal--ad__close');
-const btnAd = modalAd.querySelector('.btn')
+const btnAd = modalAd.querySelector('.btn');
+
 
 //manage nav
 function changeStatusChat() {

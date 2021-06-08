@@ -4,6 +4,12 @@ const rateStar = document.querySelector('.rateStar');
 const rate = rateStar.querySelector('.rateStar__rate');
 const rateExtra = rateStar.querySelector('.rateStar__extra');
 
+const modalFinish = document.querySelector('.modal--finished');
+const modalFinishClose = document.querySelector('.modal--finished__close');
+const btnModalFinish = modalFinish.querySelector('.btn');
+
+console.log(modalFinish);
+
 btnEndChat.addEventListener('click', () => {
     modalRate.classList.replace('close', 'show');
 });
@@ -19,12 +25,30 @@ rateStar.addEventListener('submit', (e) => {
     modalRate.classList.replace('show', 'close');
     modalRate.classList.remove('modal--qualification--expand');
     rateExtra.classList.replace('show', 'close');
+    modalFinish.classList.replace('close','show');
 
     rateStar.radio1.checked = false;
     rateStar.radio2.checked = false;
     rateStar.radio3.checked = false;
     rateStar.radio4.checked = false;
     rateStar.radio5.checked = false;
+})
+
+btnModalRateClose.addEventListener('click', () => {
+    modalRate.classList.replace('show', 'close');
+    modalRate.classList.remove('modal--qualification--expand');
+    rateExtra.classList.replace('show', 'close');
+    modalFinish.classList.replace('close','show');
+
+    rateStar.radio1.checked = false;
+    rateStar.radio2.checked = false;
+    rateStar.radio3.checked = false;
+    rateStar.radio4.checked = false;
+    rateStar.radio5.checked = false;
+});
+
+modalFinishClose.addEventListener('click',()=>{
+    modalFinish.classList.replace('show','close');
 
     if (location.pathname == '/homeUser.html') {
         changeStatusHome();
@@ -33,19 +57,10 @@ rateStar.addEventListener('submit', (e) => {
     if (location.pathname == '/sucursales.html') {
         changeStatusOffices();
     }
+});
 
-})
-
-btnModalRateClose.addEventListener('click', () => {
-    modalRate.classList.replace('show', 'close');
-    modalRate.classList.remove('modal--qualification--expand');
-    rateExtra.classList.replace('show', 'close');
-
-    rateStar.radio1.checked = false;
-    rateStar.radio2.checked = false;
-    rateStar.radio3.checked = false;
-    rateStar.radio4.checked = false;
-    rateStar.radio5.checked = false;
+btnModalFinish.addEventListener('click',()=>{
+    modalFinish.classList.replace('show','close');
 
     if (location.pathname == '/homeUser.html') {
         changeStatusHome();

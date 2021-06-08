@@ -309,6 +309,46 @@ h3 {
   margin-top: 15px;
 }
 
+.modal--finished {
+  background-color: white;
+  width: 312px;
+  height: 288px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding: 0px 30px;
+}
+
+.modal--finished__close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: #FF6900;
+  font-size: 28px;
+}
+
+.modal--finished p {
+  font-size: 14px;
+}
+
+.modal--finished .btn {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0px 30px;
+}
+
 .splashPage__header {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -84,3 +84,5 @@ form.addEventListener('submit', (e) => {
 });
 
 getMessages();
+
+setInterval(getMessages(),30000);

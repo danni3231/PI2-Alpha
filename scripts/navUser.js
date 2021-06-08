@@ -19,6 +19,10 @@ const modalCall = document.querySelector('.modal--call');
 const modalCallClose = document.querySelector('.userChat__close--call');
 const endCall = document.querySelector('.btn--closeCall');
 
+const modalAd = document.querySelector('.modal--ad');
+const modalAdClose = document.querySelector('.modal--ad__close');
+const btnAd = modalAd.querySelector('.btn')
+
 //manage nav
 function changeStatusChat() {
     btnChat.innerHTML = `    
@@ -114,11 +118,29 @@ function changeStatusOffices() {
     `;
 };
 
+
 btnChat.addEventListener('click', (e) => {
     e.preventDefault();
-    modalAmb.classList.replace('close', 'show');
+    modalAd.classList.replace('close', 'show');
     changeStatusChat();
 
+});
+
+btnAd.addEventListener('click', (e)=> {
+    e.preventDefault();
+    modalAmb.classList.replace('close', 'show');
+    modalAd.classList.replace('show', 'close');
+});
+
+modalAdClose.addEventListener('click',()=> {
+    modalAd.classList.replace('show', 'close');
+    if (location.pathname == '/homeUser.html') {
+        changeStatusHome();
+    }
+
+    if (location.pathname == '/sucursales.html') {
+        changeStatusOffices();
+    }
 });
 
 btnOffices.addEventListener('click', (e) => {

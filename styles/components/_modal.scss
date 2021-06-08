@@ -79,4 +79,37 @@
             margin: 6px 0px;
         }
     }
+
+    &--ad{
+        background-color: $white;
+        width: 312px;
+        height: 525px;
+
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content:center;
+        text-align: center;
+        padding: 0px 30px;
+
+        &__close{
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            color: $orange;
+            font-size: 28px;
+        }
+
+        h2{
+            font-size: 18px;
+        }
+
+        p{
+            font-size: 14px;
+        }
+        
+        .btn{
+            margin-top: 15px;
+        }
+    }
 }

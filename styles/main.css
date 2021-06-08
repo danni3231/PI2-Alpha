@@ -31,7 +31,7 @@ body {
 }
 
 .scroll--chat {
-  padding-bottom: 80px;
+  padding-bottom: 100px;
 }
 
 ::-webkit-scrollbar {
@@ -164,6 +164,10 @@ h3 {
   background-color: white;
   padding-left: 25px;
   color: #9B9B9B;
+}
+
+.input:focus {
+  outline: none;
 }
 
 .modal {

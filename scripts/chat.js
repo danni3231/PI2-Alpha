@@ -1,21 +1,16 @@
 const messagesContainer = document.querySelector('.userChat__chatArea')
 const form = document.querySelector('.userChat__inputContainer')
 
+console.log('entra');
+
 var startLog = `
 <div class="userChat__startLog">
     <p class="userChat__date">Abril 26 de 2021</p>
     <h3 class="userChat__title">Solicitaste Asistencia</h3>
 </div>`;
 
-var input = `
-<form action="" class="userChat__inputContainer">
-    <input type="text" name="chat" class="input userChat__input" placeholder="Escribe un mensaje...">
-    <button class="btn btn--secondary userChat__send"></button>
-</form>
-`;
-
 function renderMessages(list) {
-    messagesContainer.innerHTML = startLog + input;
+    messagesContainer.innerHTML = startLog;
 
     list.forEach(function (elem, i) {
         const newMessage = document.createElement('div');
@@ -28,6 +23,8 @@ function renderMessages(list) {
 
         messagesContainer.appendChild(newMessage);
     });
+
+    messagesContainer.scrollTop = messagesContainer.scrollHeight;
 
 }
 
@@ -50,8 +47,12 @@ function getMessages() {
     });
 };
 
+
+console.log(form);
+
 form.addEventListener('submit', (e) => {
     e.preventDefault();
+
 
     if (form.chat.value != '') {
 
@@ -73,6 +74,8 @@ form.addEventListener('submit', (e) => {
             .then(function (docRef) {
                 console.log("Document written with ID: ", docRef.id);
                 getMessages();
+
+                form.chat.value = '';
             })
             .catch(function (error) {
                 console.error("Error adding document: ", error);
@@ -85,4 +88,7 @@ form.addEventListener('submit', (e) => {
 
 getMessages();
 
-setInterval(getMessages(),30000);
+setInterval(function(){
+    console.log('obteniendo mensajes');
+    getMessages();
+},3000);

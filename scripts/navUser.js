@@ -186,7 +186,7 @@ endCall.addEventListener('click', (e) => {
 btnOp.addEventListener('click', () => {
     modalOp.classList.replace('close', 'show');
 });
-s
+
 
 btnEndChat.addEventListener('click', ()=>{
     modalChat.classList.replace('show', 'close');
